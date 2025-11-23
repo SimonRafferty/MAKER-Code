@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Generated files
+maker.bat
+dist/
+build/
+
+# Test files
+test-output/
+*.test.js
+
+# Local configuration
+config.local.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp

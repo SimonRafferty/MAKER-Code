@@ -1,0 +1,35 @@
+{
+  "name": "maker-framework",
+  "version": "1.0.0",
+  "description": "MAKER Framework - Reliable code generation using Maximal Agentic decomposition, Voting, and Red-flagging",
+  "main": "src/makerCLI.js",
+  "type": "module",
+  "bin": {
+    "maker": "./src/makerCLI.js"
+  },
+  "scripts": {
+    "start": "node src/makerCLI.js",
+    "test": "node src/makerCLI.js"
+  },
+  "keywords": [
+    "lmstudio",
+    "maker",
+    "voting",
+    "code-generation",
+    "ai",
+    "llm",
+    "reliability"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^8.11.0",
+    "acorn-walk": "^8.3.0",
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "tiktoken": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
